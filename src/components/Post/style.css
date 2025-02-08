@@ -64,11 +64,14 @@ a:focus {
 
 .post-description {
     height: max-content;
-    padding: 10px 0 5px 5px;
+    padding: 5px;
+    margin: 5px 0 0 0;
     display: flex;
     text-align: start;
     font-weight: 1;
     font-size: 0.9em;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    border-radius: 10px;
 }
 
 .post-stats {
