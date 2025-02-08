@@ -70,7 +70,7 @@ a:focus {
     text-align: start;
     font-weight: 1;
     font-size: 0.9em;
-    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.05);
     border-radius: 10px;
 }
 
@@ -96,13 +96,18 @@ a:focus {
     aspect-ratio: 1/1;
 }
 
-.post-info-comments-block {
+.post-info-comments-block__wrapper {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
     max-height: 100%;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.15);
     border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.post-info-comments-block {
+    height: 100%;
     padding: 5px;
     overflow: auto;
     scrollbar-width: thin;
