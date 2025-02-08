@@ -29,8 +29,7 @@ function Post() {
                 <div className='post-description'>
                     Данил ебаный гандон
                     <br/>
-                    Stars whisper dreams, the moon paints the night. In silence, hearts
-                    find their eternal light. ✨🌙
+                    оп ахах реакт здарова приветик гандошка ебучая
                 </div>
 
                 <div className='post-stats'>
