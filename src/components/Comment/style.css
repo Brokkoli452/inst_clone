@@ -1,0 +1,30 @@
+.comments-block__comment {
+    display: flex;
+    align-items: start;
+    min-height: 50px;
+    border-radius: 20px;
+}
+
+.profile-pic {
+    display: flex;
+    max-height: 35px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-info {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 0 0 0 5px;
+}
+
+.comment-info__common {
+    display: flex;
+}
+
+.comment-info__nametag {
+    font-weight: bold;
+    margin-right: 5px;
+}
