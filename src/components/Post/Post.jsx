@@ -2,8 +2,10 @@ import './style.css';
 import formatNumbersCompact from '../../services/formatNumbersCompact';
 import Comment from '../Comment/Comment';
 import Timestamp from "../Timestamp/Timestamp";
+import redheart from '../../assets/icons/red_heart.svg'
 
 function Post() {
+
     return (
         <div className='post'>
             <img
@@ -36,7 +38,7 @@ function Post() {
                     <div className='post-stats-likes'>
                         <img
                             className='post-stats-likes-icon'
-                            src='https://www.svgrepo.com/show/407319/red-heart.svg'
+                            src={redheart}
                             alt=''
                         />
                         <div className='post-stats-likes-counter'>

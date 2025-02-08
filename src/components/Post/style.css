@@ -88,6 +88,10 @@ a:focus {
     max-width: 90px;
 }
 .post-stats-likes-counter {
+    padding-top: 2px;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: rgba(0,0,0,0.4);
 }
 
 .post-stats-likes-icon {
